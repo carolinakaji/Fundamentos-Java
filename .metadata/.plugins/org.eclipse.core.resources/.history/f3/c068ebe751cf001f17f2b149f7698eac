@@ -1,0 +1,44 @@
+package ordem_crescente;
+
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		/*
+		 * 1. **Desafio com operadores lógicos:**
+			- Faça um programa que receba 3 números e verifique se eles estão em ordem crescente.
+		 */
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Digite 3 numeros:");
+		
+
+		
+		int[] entrada = new int[3];
+		for (int i = 0 ; i < entrada.length ; i++) {
+			entrada[i] = scan.nextInt();
+		}
+		
+		scan.close();
+		
+		int[] numerosEntrada = entrada;
+		System.out.println("entrada " + Arrays.toString(numerosEntrada));
+		
+		Arrays.sort(entrada);
+		int[] numerosOrdenados = numerosEntrada;
+		System.out.println("ordenados " + Arrays.toString(numerosOrdenados));
+
+		for(int j = 0 ; 0 < entrada.length ; j++) {
+			System.out.println("# ordem" + j + " = " + numerosOrdenados[j]);
+			System.out.println("#" + j + " = " + numerosEntrada[j]);
+		
+		}
+		}
+
+	}
+
+

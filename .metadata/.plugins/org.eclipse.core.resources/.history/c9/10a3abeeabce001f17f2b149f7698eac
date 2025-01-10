@@ -1,0 +1,25 @@
+package comparar_idades;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		/*
+		 * Exercício 2: Comparação de Idades
+		 * Crie um programa que receba duas idades e diga:
+		 * - Quem é mais velho.
+		 * - Se as idades são iguais.
+		 * 
+		 */
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Digite as idades:");
+		int idade1 = scan.nextInt();
+		int idade2 = scan.nextInt();
+		
+		scan.close();
+
+	}
+
+}

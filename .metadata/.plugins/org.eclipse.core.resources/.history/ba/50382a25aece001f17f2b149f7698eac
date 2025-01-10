@@ -1,0 +1,17 @@
+package calculadora_salario;
+
+public class Main {
+
+	public static void main(String[] args) {
+		/*
+		 * 	Exercício 4: Calculadora de Salário
+
+			Receba o salário base de uma pessoa e mostre:
+
+			- Salário com aumento de 10%.
+			- Salário com desconto de 5%.
+		 */
+
+	}
+
+}
