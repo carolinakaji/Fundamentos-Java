@@ -8,17 +8,9 @@ public class Main {
 		// Crie um programa que leia um número e verifique se ele é par ou ímpar.
 		
 		Scanner scan = new Scanner(System.in);
-		System.out.println("Digite um número inteiro: ");
 		int numero = scan.nextInt();
 		scan.close();
-		
-		int resto = numero%2;
-		
-		if(resto == 0) {
-			System.out.println("Numero " + numero + " é par");
-		} else {
-			System.out.println("Numero " + numero + " é ímpar");
-		}
+				
 
 	}
 
