@@ -1,0 +1,24 @@
+package soma_numeros_condicao;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// Solicite números do usuário até que ele insira o número zero e, no final, exiba a soma de todos os números fornecidos.
+		
+		Scanner scan = new Scanner(System.in);
+		int numero = scan.nextInt();
+		int soma = 0;
+		
+		while(numero != 0) {
+			soma += soma+numero;
+			System.out.println("Digite outro numero: ");
+			numero = scan.nextInt();
+		}
+		scan.close();
+		System.out.println(soma);
+
+	}
+
+}
