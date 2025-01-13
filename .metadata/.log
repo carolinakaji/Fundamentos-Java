@@ -603,3 +603,81 @@ java.lang.InterruptedException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-13 15:58:05.353
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.XPdazcTb
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-13 15:58:05.353
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.XPdazcTb
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-13 15:58:05.354
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-13 15:58:05.354
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.XPdazcTb => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-13 15:58:24.323
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-13 15:58:24.324
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@7943d3ac[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=957)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-13 15:58:24.324
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-13 15:58:25.679
+!MESSAGE Boot LS startup time from start to initialized: 1354ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-13 15:58:25.740
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.tKIzgLYwisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-13 15:58:25.742
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-13 15:58:25.742
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-13 15:58:25.742
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-13 15:58:25.743
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-13 15:58:25.743
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.tKIzgLYw => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-13 15:58:25.744
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-13 15:58:25.744
+!MESSAGE buffering callback sts4.classpath.tKIzgLYw semana_01 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-13 15:58:25.744
+!MESSAGE executing callback sts4.classpath.tKIzgLYw 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-13 15:58:25.767
+!MESSAGE executing callback sts4.classpath.tKIzgLYw SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-01-13 16:08:03.474
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2086)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-01-13 16:08:17.035
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2086)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
