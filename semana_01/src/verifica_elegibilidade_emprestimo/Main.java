@@ -30,21 +30,11 @@ public class Main {
 		
 		if(idade < 18 || idade > 65) {
 			System.out.println("Nao eh possivel realizar emprestimo devido a idade nao estar entre 18 e 65 anos.");
-		} else {
-			cont = 1;
-		}
-		if(rendaMensal < 2000) {
+		} else if(rendaMensal < 2000) {
 			System.out.println("Sua renda mensal nao antende aos criterios para realizar emrpestimo");
-		} else {
-			cont = cont+ 1;
-		}
-		if(pontuacaoCredito < 700) {
+		} else if(pontuacaoCredito < 700) {
 			System.out.println("Sua pontuacao de credito esta abaixo de 700, portanto nao atende aos criterios para realizar emprestimo");
 		} else {
-			cont = cont+ 1;
-		}
-		
-		if (cont==3) {
 			System.out.println("Voce eh elegivel para fazer emprestimo");
 		}
 		
