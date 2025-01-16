@@ -1,0 +1,9 @@
+package conceitos_heranca;
+
+public class Veiculo {
+	
+	void mover() {
+		System.out.println("Moveu!");
+	}
+
+}

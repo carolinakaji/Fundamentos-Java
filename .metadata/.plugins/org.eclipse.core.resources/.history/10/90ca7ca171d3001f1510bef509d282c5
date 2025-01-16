@@ -1,0 +1,35 @@
+package taxa_juros_base_pontuacao_credito;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		/*
+		 * **Determinação de Taxa de Juros com Base na Pontuação de Crédito**
+		 * Implemente um programa que calcule a taxa de juros com base na pontuação de crédito:
+		 * - Pontuação >= 800: Taxa de juros 1.5%
+		 * - Pontuação >= 700 e < 800: Taxa de juros 2.0%
+		 * - Pontuação >= 600 e < 700: Taxa de juros 3.5%
+		 * - Pontuação < 600: Empréstimo negado.
+		 */
+
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Informe sua pontuacao de credito:");
+		int pontuacaoCredito = scan.nextInt();
+		
+		if(pontuacaoCredito >= 800) {
+			System.out.println("Taxa de juros 1.5%");
+		} else if(pontuacaoCredito >= 700 && pontuacaoCredito < 800) {
+			System.out.println("Taxa de juros 2.0%");
+		} else if(pontuacaoCredito >= 600 && pontuacaoCredito < 700) {
+			System.out.println("Taxa de juros 3.5%");
+		} else if(pontuacaoCredito < 600) {
+			System.out.println("Emprestimo negado");
+		}
+		
+		scan.close();
+	}
+
+}

@@ -1,0 +1,10 @@
+package taxa_juros_base_pontuacao_credito;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
