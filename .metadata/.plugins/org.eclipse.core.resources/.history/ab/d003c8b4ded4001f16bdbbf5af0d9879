@@ -1,0 +1,9 @@
+package conceitos_polimorfismo;
+
+public class Circulo extends Forma{
+
+	@Override
+	double calcularArea(int raio) {
+		return Math.PI*Math.pow(raio, 2);
+	}
+}

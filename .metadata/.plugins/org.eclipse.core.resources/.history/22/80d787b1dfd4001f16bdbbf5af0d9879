@@ -1,0 +1,9 @@
+package conceitos_polimorfismo;
+
+public class Quadrado extends Forma {
+
+	@Override
+	public int calcularArea(int a, int b) {
+		return a*b;
+	}
+}

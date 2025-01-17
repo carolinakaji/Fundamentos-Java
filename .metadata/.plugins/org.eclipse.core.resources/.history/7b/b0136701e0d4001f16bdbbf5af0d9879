@@ -1,0 +1,13 @@
+package conceitos_polimorfismo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Circulo circ1 = new Circulo(4.3);
+		circ1.calcularArea();
+		
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package conceitos_polimorfismo;
+
+public class Forma {
+
+	public double calcularArea(double a, double b) {
+		return a* b;
+	}
+
+}
